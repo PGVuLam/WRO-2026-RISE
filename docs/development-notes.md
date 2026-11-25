@@ -4,7 +4,7 @@ This file records issues visible in the archived source. The competition source 
 
 ## Items to verify before reuse
 
-1. **Wheel diameter:** `config.h` currently sets `WHEEL_DIAMETER = 6.5` cm. Confirm this against the final measured wheel diameter and the value used during calibration before changing it.
+1. **Wheel diameter:** the team has confirmed that the project documentation should follow the competition source value, `WHEEL_DIAMETER = 6.5` cm. Keep this value unless the team later supplies a revised calibration.
 2. **Servo arm state condition:** in `servo.cpp`, the branch `else if (ArmPosition = Medium)` assigns `Medium` rather than comparing the current state. This is likely a logic bug.
 3. **Servo arm angle initialization:** `CurrentAngle` is assigned only when `ArmPosition` is High or the Medium branch is taken. Add a defined fallback before reusing this routine.
 4. **Yaw wrap-around:** turning loops compare raw Euler yaw values and do not handle the transition between +180° and -180°.
