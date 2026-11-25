@@ -1,6 +1,6 @@
 # Project media
 
-This folder is reserved for original project media supplied by the team.
+This folder is reserved for original project media supplied by the team. The team currently has one competition photo available; no competition video was recorded or provided.
 
 Suggested additions:
 - Robot overview photos
