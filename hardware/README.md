@@ -12,7 +12,7 @@ The archived firmware targets the Matrix MiniR4 platform.
 | RC2 | Gripper servo |
 | Motion IMU | Euler yaw reading for heading correction and turning |
 
-The source configures M3 and M4 with `setPPR_RPM(545, MAX_SPEED)`. Record the exact motor model, gear ratio, wheel specification, wiring, and MiniR4 library version here only after confirming them against the team's hardware.
+The source configures M3 and M4 with `setPPR_RPM(545, MAX_SPEED)`. The wheel diameter used in the source is **6.5 cm**, and the team has confirmed that the repository should follow this code value. The exact motor model, gear ratio, wiring details, and MiniR4 library version have not been documented.
 
 ## Hardware documentation still needed
 
